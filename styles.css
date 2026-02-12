@@ -524,6 +524,20 @@ body {
   margin: 3px 0 0;
 }
 
+.form-error-global {
+  margin: 8px 0 0;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: rgba(249, 115, 115, 0.15);
+  border: 1px solid rgba(249, 115, 115, 0.4);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
 .field-error {
   border-color: rgba(248, 113, 113, 0.9) !important;
   box-shadow: 0 0 0 1px rgba(248, 113, 113, 0.45);
